@@ -16,12 +16,14 @@ public class Main
         Snack chocolateBar = new Snack("Chocolate Bar", 36, 1.00, 1);
         Snack pretzel = new Snack("Pretzel", 30, 2.00, 1);
 
-        Snack drink = new Snack("Soda", 24, 2.50, 2);
-        Snack drink = new Snack("Water", 20, 2.75, 2);
+        Snack soda = new Snack("Soda", 24, 2.50, 2);
+        Snack water = new Snack("Water", 20, 2.75, 2);
+
+        System.out.println("*** Query Data ***");
     }
 
     public static void main(String[] args)
     {
-        workWithData()
+        workWithData();
     }
 }

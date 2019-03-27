@@ -21,7 +21,7 @@ public class Customer
 
     public double addCash(double addedCash)
     {
-        cash += addCash;
+        cash += addedCash;
         return cash;
     }
 

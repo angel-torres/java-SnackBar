@@ -42,7 +42,6 @@ public class Snack
     public void addQuantity(int addedQuantity)
     {
         quantity += addedQuantity;
-        return quantity;
     }
 
     public int getQuantity()
