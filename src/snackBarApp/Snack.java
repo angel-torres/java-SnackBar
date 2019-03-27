@@ -49,10 +49,9 @@ public class Snack
         return quantity;
     }
 
-    public int buySnack(int boughtQuantity)
+    public void buySnack(int boughtQuantity)
     {
         quantity -= boughtQuantity;
-        return quantity;
     }
 
     public double cost(double boughtQuantity)
