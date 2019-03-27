@@ -19,7 +19,10 @@ public class Main
         Snack soda = new Snack("Soda", 24, 2.50, 2);
         Snack water = new Snack("Water", 20, 2.75, 2);
 
-        System.out.println("*** Query Data ***");
+        System.out.println("*** Query Data *** \n");
+        System.out.println(food);
+
+        
     }
 
     public static void main(String[] args)
