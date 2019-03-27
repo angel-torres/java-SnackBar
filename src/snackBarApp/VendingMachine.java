@@ -3,7 +3,7 @@ package snackBarApp;
 
 public class VendingMachine
 {
-    private int maxId = 0;
+    private static int maxId = 0;
 
     private int id;
 
